@@ -1,0 +1,29 @@
+
+body.pattern-bedge-grunge {
+    background: #f2f2f4 url(../images/backgrounds/bedge_grunge.png);
+}
+
+ul {
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+li {
+    padding: 1.5%;
+}
+
+#navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#menuses {
+    position:absolute;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
