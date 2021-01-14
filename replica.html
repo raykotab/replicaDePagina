@@ -3,99 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
     <link rel="stylesheet" href="style.css">
 
-    <title>http://bootstrap.oxygenna.com/smartbox/</title>
+    <title>Food House</title>
 </head>
 <body>
     <header>
-        <nav id="navbar">
-            <h1><a href="replica.html">SMARTBOX</a></h1>
-            <div id="menuses">
-                <ul >
-                    <li>HOME</li>
-                    <li>PAGES</li>
-                    <li>FEATURES</li>
-                    <li>BLOG</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT</li>
-                </ul>
-            </div>
-        </nav>
+        
+            <h1 id="mainTitle">Food For Home</h1>
+            <h3 id="mainSubtitle">lorem Ipsum</h3>
+        
     </header>
+
+    <nav>
+        <div id="menuImages">    
+            <img class="dishClassMenuImg" src="img/vegetable.png">
+            <img class="dishClassMenuImg" src="img/meat.png">
+            
+            <img class="dishClassMenuImg" src="img/fish.png">
+            
+            <img class="dishClassMenuImg" src="img/rice.png">
+            
+            <img class="dishClassMenuImg" src="img/cheesecake.png">
+        </div>
+
+        <div id="menuNames">
+            <p class="dishClassMenuTitle">lorem ipsum</p> 
+            <p class="dishClassMenuTitle">lorem ipsum</p> 
+            <p class="dishClassMenuTitle">lorem ipsum</p>
+            <p class="dishClassMenuTitle">lorem ipsum</p>
+            <p class="dishClassMenuTitle">lorem ipsum</p>
+
+        </div>
+    </nav>
+
     <main>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-3-1250x420.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>BOLD & BEAUTIFUL</h5>
-              </div>
-          </div>
-          <div class="carousel-item">
-            <figure><img class="d-block w-100" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-1250x420.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>CREATIVE & RESPONSIVE</h5>
-                </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-1-1250x420.jpg" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>ADAPTIVE & AWESOME</h5>
-              </div>
-          </div>
+
+        <div class="cardContainer">
+            <img class="dish" src="">
+            <p class="price"></p>
+            <p class="dishName"></p>
+            <p id="dishDescription"></p>
+           
+
+
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-
-
-        <div>
-            <h1>WHAT WE DO?</h1>
-        </div>
-
-        <ul>
-            <li><img src="img/1.png">
-                <h3>WEB APPLICATIONS</h3>
-                <p>Nam vitae ligula eu mi molestie fringilla sed ac massa. Quisque justo metus, commodo eu viverra quis, volutpat et urna.</p>
-                <a href="Read more">Read More</a>
-            </li>
-            <li><img src="img/2.png">
-                <h3>CLOUD HOSTING</h3>
-                <p>Nam vitae ligula eu mi molestie fringilla sed ac massa. Quisque justo metus, commodo eu viverra quis, volutpat et urna.</p>
-                <a href="Read more">Read More</a>
-            </li>
-            <li><img src="img/3.png">
-                <h3>SOCIAL APPS</h3>
-                <p>Nam vitae ligula eu mi molestie fringilla sed ac massa. Quisque justo metus, commodo eu viverra quis, volutpat et urna.</p>
-                <a href="Read more">Read More</a>
-            </li>
-            <li><img src="img/4.png">
-                <h3>SMART DESIGN</h3>
-                <p>Nam vitae ligula eu mi molestie fringilla sed ac massa. Quisque justo metus, commodo eu viverra quis, volutpat et urna.</p>
-                <a href="Read more">Read More</a>
-            </li>
-        </ul>
-    </main>  
-
+    </main>
     
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-       
 </body>
 </html>

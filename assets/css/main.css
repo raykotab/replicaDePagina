@@ -1,0 +1,42 @@
+
+header {
+    
+    width: auto;
+    max-height: 100px;
+    
+
+}
+
+nav {
+    
+    
+}
+
+#menuImages {
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#menuNames {
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.dishClassMenuImg {
+   
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.dishClassMenuTitel {
+   
+    font-size:xx-small;
+    margin: 0px;
+    
+
+}
+
