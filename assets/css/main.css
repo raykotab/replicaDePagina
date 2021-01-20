@@ -1,42 +1,82 @@
+@import "components/atoms/atoms_main.css";
+@import "components/molecules/molecules_main.css";
+@import "components/protones/protones_main.css";
+
+* {
+    font-family: var(--main-font-family);
+}
 
 header {
     
-    width: auto;
-    max-height: 100px;
     
+    border: 1px solid black;
 
 }
 
 nav {
-    
+
+    border: 1px solid black;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+input::after {
+
+    content: attr(value string);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
     
 }
 
-#menuImages {
-    display: flex;
+div {
+    border: 1px solid black;
+}
 
+#menuImages {
+    
+    display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
 #menuNames {
     display: flex;
-
+    background-color: aqua;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
-.dishClassMenuImg {
-   
-    max-width: 30px;
-    max-height: 30px;
+#navImages {
+    display: flex;
+    justify-content: space-around;
 }
+
+/* .dischClassMenu {
+   
+
+} */
+
 
 .dishClassMenuTitel {
    
     font-size:xx-small;
     margin: 0px;
     
+
+}
+
+.dishClassMenuImg {
+
+    object-fit: contain;
+    width: 40px;
+    height: auto;
+
 
 }
 

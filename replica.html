@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <title>Food House</title>
 </head>
@@ -15,33 +15,31 @@
             <h3 id="mainSubtitle">lorem Ipsum</h3>
         
     </header>
+    <section>
 
-    <nav>
-        <div id="menuImages">    
-            <img class="dishClassMenuImg" src="img/vegetable.png">
-            <img class="dishClassMenuImg" src="img/meat.png">
-            
-            <img class="dishClassMenuImg" src="img/fish.png">
-            
-            <img class="dishClassMenuImg" src="img/rice.png">
-            
-            <img class="dishClassMenuImg" src="img/cheesecake.png">
-        </div>
+    
+        <nav>
+            <div id="navImages">
+                <input type="checkbox" id="dishClassMenuVegetable" name="dishClassMenuVegetable" class="dishClassMenu" value="Vegetable">
+                <input type="checkbox" id="dishClassMenuMeat" name="dishClassMenuVegetable" class="dishClassMenu" value="Meat">
 
-        <div id="menuNames">
-            <p class="dishClassMenuTitle">lorem ipsum</p> 
-            <p class="dishClassMenuTitle">lorem ipsum</p> 
-            <p class="dishClassMenuTitle">lorem ipsum</p>
-            <p class="dishClassMenuTitle">lorem ipsum</p>
-            <p class="dishClassMenuTitle">lorem ipsum</p>
+                
+                <img class="dishClassMenuImg" src="assets/css/img/fish.png">
+                <img class="dishClassMenuImg" src="assets/css/img/rice.png">
+                <img class="dishClassMenuImg" src="assets/css/img/cheesecake.png">
 
-        </div>
-    </nav>
+            </div>    
+            <div id="menuNames">
+                <p class="dishClassMenuTitle">como ajusto</p> 
+               
+            </div>
+        </nav>
+    </section>    
 
     <main>
 
         <div class="cardContainer">
-            <img class="dish" src="">
+            <img class="dish" src="assets/css/img/red_lentil_dal.jpg">
             <p class="price"></p>
             <p class="dishName"></p>
             <p id="dishDescription"></p>
@@ -50,6 +48,17 @@
 
         </div>
     </main>
+    <footer>
+
+    </footer>
+
+    
+    <!-- EMOJI ICON 
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+2. Use icon placeholder where you want to show icon (similar to icon fonts):
+<span class="iconify" data-inline="false" data-icon="emojione-v1:face-savoring-food"></span>
+Change icon size using css (similar to icon fonts):
+<span class="iconify" data-inline="false" data-icon="emojione-v1:face-savoring-food" style="font-size: 24px;"></span> -->
     
 </body>
 </html>
