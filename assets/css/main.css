@@ -7,35 +7,69 @@
 }
 
 header {
-    
-    
-    border: 1px solid black;
+    height: 90px;
+}
 
+#houseName {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+h1 {
+    font-size:x-large;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+#mainSubtitle {
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #7e7e7e ;
 }
 
 nav {
 
-    border: 1px solid black;
-    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin-bottom: 15px;
 }
 
-input::after {
+.menuOptions {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    box-shadow: 5px 5px  3px  grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    content: attr(value string);
+.dishClassMenuImg {
+    margin-top: 2px;
+    object-fit: contain;
+    width: 20px;
+    height: auto;
+    
+}
+
+.menuOptionsName {
+    margin: 1px;
+    font-size:x-small;
+    font-weight: bold;
 }
 
 main {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     
 }
 
 div {
-    border: 1px solid black;
+    
 }
 
 #menuImages {
@@ -53,30 +87,44 @@ div {
 }
 
 #navImages {
+    width: 300px;
     display: flex;
     justify-content: space-around;
+   
 }
 
-/* .dischClassMenu {
-   
+.cardContainer{
+    border: solid 1px black;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    box-shadow: 10px 5px 5px grey;
+    margin-bottom: 3px;
+}
 
-} */
+.dish {
+    height: 90px;
+    width: 90px;
+}
 
-
-.dishClassMenuTitel {
-   
-    font-size:xx-small;
-    margin: 0px;
+.dishInfo p {
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px
     
+}
+
+#dishDescription {
+    font-size: x-small;
+    
+}
+
+footer {
+    height: 100px;
+    background-color: var(--main-color);
+    position: sticky;
 
 }
 
-.dishClassMenuImg {
-
-    object-fit: contain;
-    width: 40px;
-    height: auto;
-
-
-}
 
