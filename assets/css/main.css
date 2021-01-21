@@ -35,6 +35,7 @@ nav {
     justify-content: space-around;
     overflow-x: scroll;
     scrollbar-width: none;
+    height: 45px;
     margin-bottom: 15px;
 }
 
@@ -94,17 +95,22 @@ div {
 }
 
 .cardContainer{
-    border: solid 1px black;
+    
     height: 100px;
     width: 200px;
     display: flex;
     box-shadow: 10px 5px 5px grey;
     margin-bottom: 3px;
+    border-radius: 10%;
+}
+.dish {
+    width: 40%;
+    border-radius: 10% 0% 0% 10%;
+    object-fit: cover;
 }
 
-.dish {
-    height: 90px;
-    width: 90px;
+.dish img {
+    width: 100%;
 }
 
 .dishInfo p {
@@ -122,9 +128,79 @@ div {
 
 footer {
     height: 100px;
+}
+
+#cartButton {
+    /* contain: content; */
+    height: 40px;
+    width: 40px; 
     background-color: var(--main-color);
-    position: sticky;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    left: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px grey ;
+    z-index: 1;
 
 }
 
+#buttonCartButton {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+#buttonCartButton i {
+    color: white;
+    font-size: small;
+}
+
+.footerNav {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    height: 20px;
+    
+    
+}
+
+.footerNav i {
+    color: rgb(116, 114, 114);
+    font-size: medium;
+    
+}
+
+.footerNav button {
+    bottom: 1px;
+}
+
+footer {
+    background-color: white;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#footerNavigationLeft {
+    align-self: flex-start;
+   
+    display:flex;
+
+}
+
+#footerNavigationRight {
+    align-self: flex-end;
+
+  
+   
+    bottom: 0;
+    /* align-content: flex-end; */
+}
 
